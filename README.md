@@ -124,7 +124,7 @@ Behaviour:
 
 Ask your agent (it will call the MCP tools under the hood):
 - *"What important mail did I get yesterday?"*
-- *"List everything Lea Park sent about the Inbound Instruction."*
+- *"List everything Jane Doe sent about the Inbound Instruction."*
 - *"Show me the attachments from the invoice thread last week."*
 
 Manual sync options:
