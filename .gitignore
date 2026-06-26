@@ -1,0 +1,19 @@
+# ---- secrets: NEVER commit ----
+.secret.json
+opencode.json
+*.local.json
+
+# ---- runtime / machine state ----
+.outlook-sync-state.json
+logs/
+*.log
+
+# ---- node ----
+node_modules/
+package-lock.json
+bun.lock
+.lock-*.tmp
+
+# ---- OS ----
+Thumbs.db
+.DS_Store

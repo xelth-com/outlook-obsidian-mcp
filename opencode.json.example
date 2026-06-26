@@ -1,0 +1,36 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "provider": {
+    "minimax": {
+      "npm": "@ai-sdk/anthropic",
+      "options": {
+        "baseURL": "https://api.minimax.io/anthropic/v1",
+        "apiKey": "YOUR_MINIMAX_API_KEY"
+      },
+      "models": {
+        "MiniMax-M2.1": { "name": "MiniMax-M2.1" }
+      }
+    },
+    "zai": {
+      "npm": "@ai-sdk/openai",
+      "options": {
+        "baseURL": "https://open.bigmodel.cn/api/paas/v4",
+        "apiKey": "YOUR_ZAI_GLM_API_KEY"
+      },
+      "models": {
+        "GLM-4.7":     { "name": "glm-4-plus" },
+        "GLM-4-Plus":  { "name": "glm-4-plus" },
+        "GLM-4-Air":   { "name": "glm-4-air" },
+        "GLM-4-Flash": { "name": "glm-4-flash" }
+      }
+    }
+  },
+  "mcp": {
+    "obsidian": {
+      "type": "local",
+      "command": ["node", "C:\\Users\\YOURUSER\\.config\\opencode\\obsidian-mcp.js"],
+      "enabled": true,
+      "timeout": 30000
+    }
+  }
+}
