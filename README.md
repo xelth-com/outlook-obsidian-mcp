@@ -147,13 +147,13 @@ Logs (one file per day, appended): `%USERPROFILE%\.config\opencode\logs\outlook-
 
 ## What each note looks like
 
-`vault/Mail/2026-05-04 - [Stephan Hwei] - ... - a1b2c3d4.md`
+`vault/Mail/2026-05-04 - [Vasja] - ... - a1b2c3d4.md`
 ```markdown
 ---
 type: mail
 outlook_folder: "\\you\Inbox"
 date: 2026-05-04 09:35:15
-sender: "Stephan Hwei"
+sender: "Vasja"
 sender_email: "..."
 to: "..."
 subject: "..."
